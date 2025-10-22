@@ -1,0 +1,1 @@
+{"env_id": "base64bench", "env_args": {"examples_per_data_type": 2}, "model": "Qwen/Qwen2.5-Coder-32B-Instruct", "base_url": "http://154.54.100.160:8000/v1/", "num_examples": 68, "rollouts_per_example": 3, "sampling_args": {"n": 1, "extra_body": {}, "max_tokens": null}, "time_ms": 0.0, "avg_reward": 0.0, "avg_metrics": {}, "state_columns": []}
