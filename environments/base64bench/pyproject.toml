@@ -1,7 +1,7 @@
 [project]
 name = "base64bench"
-description = "Your environment description here"
-tags = ["placeholder-tag", "train", "eval"]
+description = "Evaluates a model's ability to accurately perform base64 encoding and decoding across a variety of text and data formats."
+tags = ["base64", "encoding", "decoding", "train", "eval"]
 version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
