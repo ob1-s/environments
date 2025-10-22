@@ -1,0 +1,21 @@
+[project]
+name = "porsimples"
+description = "Verifiers environment for Portuguese text simplification (PorSimples)."
+tags = ["portuguese", "text-simplification", "train", "eval"]
+version = "0.1.1"
+requires-python = ">=3.10"
+dependencies = [
+    "verifiers>=0.1.5.post0",
+    "evaluate",
+    "easse @ git+https://github.com/feralvam/easse.git",
+    "rouge_score",
+    "sacrebleu",
+    "nltk"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
