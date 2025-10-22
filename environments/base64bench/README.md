@@ -1,13 +1,15 @@
 # base64bench
 
+> Based on the original experiment [Base64Bench- How good are LLMs at base64, and why care about it?](https://www.lesswrong.com/posts/5F6ncBfjh2Bxnm6CJ/base64bench-how-good-are-llms-at-base64-and-why-care-about) by Rich Barton-Cooper
+
 ### Overview
 - **Environment ID**: `base64bench`
 - **Short description**: Evaluates a model's ability to accurately perform base64 encoding and decoding across a variety of text and data formats.
 - **Tags**: `base64`, `encoding`, `decoding`, `eval`, `train`
 
 ### Datasets
-- **Primary dataset(s)**: The environment uses custom-generated `train.jsonl` and `eval.jsonl` files containing diverse data types, such as UUIDs, API keys, JSON, natural language, and cryptographic data representations.
-- **Source links**: The datasets are included with the environment and are generated from a script that produces a wide range of realistic but sanitized data samples.
+- **Primary dataset(s)**: The environment uses pre-generated `train.jsonl` and `eval.jsonl` files containing diverse data types, such as UUIDs, API keys, JSON, natural language, and cryptographic data representations.
+- **Source links**: The datasets were generated with https://github.com/richcooper95/base-64-bench
 - **Split sizes**: 340 test examples (10 per data type); 1360 train examples (40 per data type). Each example is used twice, once for an encoding task and once for a decoding task.
 
 ### Task
